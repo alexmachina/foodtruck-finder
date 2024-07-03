@@ -4,6 +4,7 @@
 Your favorite food truck is only one prompt away!
 With Food Truck Finder, you can easily find food trucks around you by writing a prompt and seeing the results magically appear on the screen!
 
+Notice that it evens handles a typo, so smaaaart 🧙
 
 
 https://github.com/alexmachina/foodtruck-finder/assets/41119858/b8efdb4f-0da2-4d5f-b8c6-c3b29a3ed210
