@@ -57,12 +57,13 @@ I chose to leverage the `_` routing pattern of NextJs to store the modules insid
 - `[page]/containers` contains the classic react containers. Here is where hooks, API calls, state, and everything that handles logic should be. These components are supposed to glue together the UI components with API data.
 
 The concept here is that the more generic a component is, the more upwards on the tree it should live, so that components deep down the tree use components that are shallow on the tree.
+I decided not to use a state management library, since the state is small. But I could have used zustand or redux. Or even React's context.
 
 ### Back End
 
-The only reason for having a back-end is to hide the OpenAI API Keys.
+The main reason for having a back-end is to hide the OpenAI API Keys, but this ends up making the project an API too that other apps can access and call the endpoint!
 
-I could have downloaded, parsed and called openAI api from the front-end, having a field for the user to add his api key, but I decided to go for an out-of-the-box solution that regular users can use.
+I could have downloaded, parsed the CSV and called openAI api from the front-end, having a field for the user to add his api key, but I decided to go for an out-of-the-box solution that regular users can use.
 
 For the back-end api:
 
@@ -118,6 +119,8 @@ I'll list only improvements for the current features, and not new features as im
 ## Front-End
 
 - Improve the styling, there is probably some redundant styling due to the limited time available
+- Add validation, making sure the prompt is never too long or too short
+- Add error handling
 
 ### Open AI API Calls
 
