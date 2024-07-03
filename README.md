@@ -121,7 +121,7 @@ I'll list only improvements for the current features, and not new features as im
 
 - Improve the styling, there is probably some redundant styling due to the limited time available
 - Add validation, making sure the prompt is never too long or too short
-- Add error handling
+- Add error handling, currently it only handles the "happy path"
 
 ### Open AI API Calls
 
