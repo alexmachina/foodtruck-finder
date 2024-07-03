@@ -1,5 +1,6 @@
 # Food Truck Finder
-#### [✨ Use it Live In Production✨](https://foodtruck-finder-ecru.vercel.app/)
+### [✨ Use it Live In Production✨](https://foodtruck-finder-ecru.vercel.app/)
+
 Your favorite food truck is only one prompt away!
 With Food Truck Finder, you can easily find food trucks around you by writing a prompt and seeing the results magically appear on the screen!
 
@@ -14,17 +15,15 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 Create an Open AI key in case you don't have one: https://help.openai.com/en/articles/4936850-where-do-i-find-my-openai-api-key
 Create a `.env` file in the root directory with the following content
 
-````
+```
 OPENAI_KEY=your_api_key_here
-```bash
+```
 
+To run the project in your machine
+```bash
+npm install
+# and
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ````
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
