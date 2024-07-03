@@ -3,6 +3,8 @@
 Your favorite food truck is only one prompt away!
 With Food Truck Finder, you can easily find food trucks around you by writing a prompt and seeing the results magically appear on the screen!
 
+[✨ See it Live ✨](https://foodtruck-finder-ecru.vercel.app/)
+
 https://github.com/alexmachina/foodtruck-finder/assets/41119858/b8efdb4f-0da2-4d5f-b8c6-c3b29a3ed210
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
@@ -79,6 +81,8 @@ It uses `papaparse` library to deal with CSV parsing and unparsing.
 ## DaisyUI 4
 
 This project uses [DaisyUI](https://github.com/saadeghi/daisyui) as a UI library, so that we can ship something beautiful in time.
+
+Also, notices that DaisyUI uses the `prose` class [to work with typography](https://daisyui.com/docs/layout-and-typography/).
 
 ## DataSFGov
 
