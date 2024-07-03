@@ -60,6 +60,11 @@ export default function Home() {
           </h2>
         )}
       </div>
+      <div className="text-center w-full">
+        <span className="text-center w-full prose">
+          by: <a href="https://github.com/alexmachina">@alexmachina</a>{" "}
+        </span>
+      </div>
     </main>
   );
 }
